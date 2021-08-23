@@ -6,6 +6,7 @@
 	--secondary:  #283d82;
 	--primary-normal-font: 'Shin Go Regular';
 	--primary-bold-font: 'Shin Go DeBold';
+	font-size: calc((1vw + 1vh + 0.5vmin) / 2);
 }
 
 .bg-primary {
@@ -195,6 +196,11 @@ footer p:last-child {
 }
 
 @media (max-width: 767.98px) {
+
+	:root {
+		font-size: 16px;
+	}
+
 	body {
 		font-size: 0.95rem;
 	}
