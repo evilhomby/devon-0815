@@ -6,7 +6,7 @@
 	--secondary:  #283d82;
 	--primary-normal-font: 'Shin Go Regular';
 	--primary-bold-font: 'Shin Go DeBold';
-	font-size: calc((1vw + 1vh + 0.5vmin) / 2);
+	/*font-size: calc((1vw + 1vh + 0.5vmin) / 2);*/
 }
 
 .bg-primary {
@@ -22,6 +22,7 @@
 }
 
 .badge-primary {
+	padding: 0.6em 0.8em;
 	background-color:#af0611 !important;
 }
 
@@ -49,6 +50,7 @@ strong, .strong {
 }
 
 p {
+	font-size: 1.25rem;
 	font-weight: normal;
 	margin-bottom: 1.7rem;
 }
@@ -67,6 +69,11 @@ a:hover {
 	text-decoration: none;
 }
 
+ul {
+	font-size: 1.25rem;
+	padding-left: 1.5rem;
+}
+
 li {
 	position: relative;
 	margin-top: 1rem;
@@ -78,6 +85,10 @@ li:first-child {
 
 #wrapper {
 	background: #eee;
+}
+
+.container {
+	max-width: 1130px;
 }
 
 header {
@@ -191,6 +202,10 @@ footer {
 	color: #5b5b5b;
 }
 
+footer p {
+	font-size: 16px;
+}
+
 footer p:last-child {
 	margin: 0px;
 }
@@ -229,12 +244,22 @@ footer p:last-child {
 		margin-bottom: 0;
 	}
 
+	h1 {
+		font-size: 1.75rem;
+	}
+
+	h2 {
+		font-size: 1.25rem;
+	}
+
 	p {
+		font-size: 1rem;
 		padding: 0;
 		margin-bottom: 1.6rem;
 	}
 
 	ul {
+		font-size: 1rem;
 		max-width: 650px;
 		font-weight: 900;
 		margin-bottom: 0;
