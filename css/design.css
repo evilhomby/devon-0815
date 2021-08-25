@@ -116,6 +116,10 @@ section > picture {
 	margin-bottom: 0.5rem;
 }
 
+#reasons p {
+	margin-bottom: 1rem;
+}
+
 #text-1 .container {
 	background: url(../images/brain-pc.png) no-repeat right 40%;
 	background-size: 25%;
@@ -124,78 +128,6 @@ section > picture {
 #text-4 .container {
 	background: url(../images/text-img-pc.png) no-repeat right 50%;
 	background-size: 50%;
-}
-
-.check-circle {
-	/*margin-left: 6rem;*/
-	font-weight: 700;
-}
-
-.check-circle li::before {
-	position: absolute;
-	content: '\f058';
-	font-family: 'Font Awesome 5 Free';
-	font-size: 1.25rem;
-	font-weight: 900;
-	left: -2.5rem;
-	top: -3px;
-	color: var(--primary);
-}
-
-.card-header{
-	margin-bottom: 0 !important;
-	font-size: 1.2rem;
-	font-weight: 900;
-	padding-left: 0;
-}
-
-.card-body{
-	/* padding: 3rem 12rem; */
-	padding: 2rem 0rem;
-}
-
-.color-circle {
-	display: block;
-	background: var(--primary);
-	color: #fff;
-	border-radius: 100%;
-	width: 64px;
-	height: 64px;
-	line-height: 67px;
-	text-align: center;
-	font-size: 1.5rem;
-	font-weight: 900;
-}
-
-td.active {
-	background: #fff1d5;
-}
-
-.table .text-muted {
-	font-size: 0.8em;
-}
-
-.qa .card-header {
-	padding-top: 1rem;
-	background: #fff;
-	border: none;
-	font-weight: 900;
-}
-
-.qa .card-header:first-child {
-	padding-top: 0;
-}
-
-.qa .card-body {
-	background: #f0eeeb;
-}
-
-.qa p {
-	padding: 0px 80px;
-}
-
-.qa p:last-child {
-	margin-bottom: 0;
 }
 
 footer {
